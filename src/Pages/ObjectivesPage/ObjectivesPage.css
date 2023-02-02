@@ -1,0 +1,25 @@
+.objectivesPageHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 85px;
+  padding: 0 50px;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.1);
+}
+.oHeader-left,
+.oHeader-right {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.oHeader-right p{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #E8F0FE;
+border-radius: 4px;
+width: 250px;
+padding: 6px 0;
+color: #4C84FF;
+}

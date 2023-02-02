@@ -1,0 +1,30 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 85px;
+    padding: 0 50px;
+    border-bottom:0.5px solid rgba(0, 0, 0, 0.1);
+}
+.header h1 {
+    font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+color: #31394E;
+}
+.header-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 33.5px;
+}
+.header-plus-icon{
+    border: none;
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    background: #4C84FF;
+    color: white;
+    font-size: 25px;
+}

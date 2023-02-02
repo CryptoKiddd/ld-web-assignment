@@ -1,0 +1,100 @@
+.dashboard-wrapper{
+    display: flex;
+}
+
+.DashboardFavoriteProjects{
+   width: 55%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+
+
+
+}
+.dashboard-welcome{
+    margin-top: 67px;
+    display: flex;
+    background: #E8F0FE;
+border-radius: 8px;
+width: 100%;
+align-items: center;
+justify-content: space-between;
+padding: 0 30px;
+
+}
+.dashboard-welcome h2{
+ margin-top: -60px;
+ margin-bottom: 16px;
+ font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 0.2px;
+color: #31394E;
+
+}
+.dashboard-welcome p{
+ width: 360px;
+ font-weight: 400;
+font-size: 14px;
+line-height: 28px;
+letter-spacing: 0.2px;
+color: #31394E;
+
+}
+.DashboardProjectInfo{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+    align-items: center;
+    border-left: 0.5px solid rgba(0, 0, 0, 0.1);
+    width: 45%;
+   
+   
+}
+.dashboard-fav-projects h3{
+  margin-top: 41px;
+  margin-bottom: 48px;
+  font-weight: 400;
+font-size: 20px;
+color: #31394E;
+}
+.fav-projects-wrapper{
+    display: flex;
+    padding: 0 20px;
+    
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 51px;
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+    width: 82px;
+    height: 123px;
+}
+.project-symbol{
+    width: 80px;
+    height: 80px;
+    background: #DB54FD;
+border-radius: 12px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-weight: 500;
+font-size: 26px;
+line-height: 31px;
+
+color: #FFFFFF;
+}
+.project-name{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: bottom;
+    
+    color: #838895;
+}

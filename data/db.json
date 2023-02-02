@@ -1,0 +1,1259 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Armaz Avaliani",
+      "isActive": true,
+      "email": "avaliani1232@gmail.com",
+      "owner": true,
+      "img": "https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"
+    },
+    {
+      "id": 2,
+      "name": "Gvanca Beridze",
+      "isActive": true,
+      "email": "avaliani1232@gmail.com",
+      "owner": false,
+      "img": "https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"
+    },
+    {
+      "id": 3,
+      "name": "Elene Beridze",
+      "isActive": true,
+      "email": "avaliani1232@gmail.com",
+      "owner": false,
+      "img": "https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"
+    },
+    {
+      "id": 4,
+      "name": "Aleqsandre Beridze",
+      "isActive": false,
+      "email": "avaliani1232@gmail.com",
+      "owner": false,
+      "img": "https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"
+    },
+    {
+      "id": 5,
+      "name": "Mukhran Avaliani",
+      "isActive": false,
+      "email": "avaliani1232@gmail.com",
+      "owner": false,
+      "img": "https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"
+    },
+    {
+      "id": 6,
+      "name": "Giorgi Kalatozi",
+      "isActive": true,
+      "email": "avaliani1232@gmail.com",
+      "owner": false,
+      "img": "https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"
+    },
+    {
+      "id": 7,
+      "name": "Kakha Qurdiani",
+      "isActive": true,
+      "email": "avaliani1232@gmail.com",
+      "owner": false,
+      "img": "https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"
+    }
+  ],
+  "projects": [
+    {
+      "name": "LD Website",
+      "id": 1,
+      "sym": "LW",
+      "color": "#DB54FD",
+      "todos": [
+        {
+          "id": 1,
+          "priority": "urgent",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-20",
+          "from":"Roundrush",
+          "taskType": "bug"
+        },
+        {
+          "id": 2,
+          "priority": "urgent",
+          "task": "Ac hac et ac tristique luctus.",
+          "taskId": "WMS-21",
+          "from":"LDWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 3,
+          "priority": "high",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-24",
+          "from":"LDWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 4,
+          "priority": "high",
+          "task": "Ultrices ultrices etiam sed.",
+          "taskId": "WMS-12",
+          "from":"Marketing",
+          "taskType": "macro"
+        },
+        {
+          "id": 5,
+          "priority": "medium",
+          "task": "Magna bibendum nibh mi habitant.",
+          "taskId": "WMS-18",
+          "from":"RoundrushWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 6,
+          "priority": "low",
+          "task": "Enim at eget morbi amet integ..",
+          "taskId": "WMS-32",
+          "from":"LDWebsite",
+          "taskType": "macro"
+        },
+        {
+          "id": 7,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        }
+      ],
+      "pending": [
+        {
+          "id": 1,
+          "priority": "urgent",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-20",
+          "from":"Roundrush",
+          "taskType": "bug"
+        },
+        {
+          "id": 2,
+          "priority": "urgent",
+          "task": "Ac hac et ac tristique luctus.",
+          "taskId": "WMS-21",
+          "from":"LDWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 3,
+          "priority": "high",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-24",
+          "from":"LDWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 4,
+          "priority": "high",
+          "task": "Ultrices ultrices etiam sed.",
+          "taskId": "WMS-12",
+          "from":"Marketing",
+          "taskType": "macro"
+        },
+        {
+          "id": 5,
+          "priority": "medium",
+          "task": "Magna bibendum nibh mi habitant.",
+          "taskId": "WMS-18",
+          "from":"RoundrushWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 6,
+          "priority": "low",
+          "task": "Enim at eget morbi amet integ..",
+          "taskId": "WMS-32",
+          "from":"LDWebsite",
+          "taskType": "macro"
+        },
+        {
+          "id": 7,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 8,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 8,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        }
+      ]
+    },
+    {
+      "name": "LD Website Marketing",
+      "id": 2,
+      "sym": "LW",
+      "color": " #61D26F",
+      "todos": [
+        {
+          "id": 1,
+          "priority": "urgent",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-20",
+          "from":"Roundrush",
+          "taskType": "bug"
+        },
+        {
+          "id": 2,
+          "priority": "urgent",
+          "task": "Ac hac et ac tristique luctus.",
+          "taskId": "WMS-21",
+          "from":"LDWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 3,
+          "priority": "high",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-24",
+          "from":"LDWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 4,
+          "priority": "high",
+          "task": "Ultrices ultrices etiam sed.",
+          "taskId": "WMS-12",
+          "from":"Marketing",
+          "taskType": "macro"
+        },
+        {
+          "id": 5,
+          "priority": "medium",
+          "task": "Magna bibendum nibh mi habitant.",
+          "taskId": "WMS-18",
+          "from":"RoundrushWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 6,
+          "priority": "low",
+          "task": "Enim at eget morbi amet integ..",
+          "taskId": "WMS-32",
+          "from":"LDWebsite",
+          "taskType": "macro"
+        },
+        {
+          "id": 7,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        }
+      ],
+      "pending": [
+        {
+          "id": 1,
+          "priority": "urgent",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-20",
+          "from":"Roundrush",
+          "taskType": "bug"
+        },
+        {
+          "id": 2,
+          "priority": "urgent",
+          "task": "Ac hac et ac tristique luctus.",
+          "taskId": "WMS-21",
+          "from":"LDWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 3,
+          "priority": "high",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-24",
+          "from":"LDWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 4,
+          "priority": "high",
+          "task": "Ultrices ultrices etiam sed.",
+          "taskId": "WMS-12",
+          "from":"Marketing",
+          "taskType": "macro"
+        },
+        {
+          "id": 5,
+          "priority": "medium",
+          "task": "Magna bibendum nibh mi habitant.",
+          "taskId": "WMS-18",
+          "from":"RoundrushWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 6,
+          "priority": "low",
+          "task": "Enim at eget morbi amet integ..",
+          "taskId": "WMS-32",
+          "from":"LDWebsite",
+          "taskType": "macro"
+        },
+        {
+          "id": 7,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 8,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 8,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        }
+      ]
+    },
+    {
+      "name": "Roundrush",
+      "id": 3,
+      "sym": "R",
+      "color": "#1FAAE9",
+      "todos": [
+        {
+          "id": 1,
+          "priority": "urgent",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-20",
+          "from":"Roundrush",
+          "taskType": "bug"
+        },
+        {
+          "id": 2,
+          "priority": "urgent",
+          "task": "Ac hac et ac tristique luctus.",
+          "taskId": "WMS-21",
+          "from":"LDWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 3,
+          "priority": "high",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-24",
+          "from":"LDWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 4,
+          "priority": "high",
+          "task": "Ultrices ultrices etiam sed.",
+          "taskId": "WMS-12",
+          "from":"Marketing",
+          "taskType": "macro"
+        },
+        {
+          "id": 5,
+          "priority": "medium",
+          "task": "Magna bibendum nibh mi habitant.",
+          "taskId": "WMS-18",
+          "from":"RoundrushWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 6,
+          "priority": "low",
+          "task": "Enim at eget morbi amet integ..",
+          "taskId": "WMS-32",
+          "from":"LDWebsite",
+          "taskType": "macro"
+        },
+        {
+          "id": 7,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        }
+      ],
+      "pending": [
+        {
+          "id": 1,
+          "priority": "urgent",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-20",
+          "from":"Roundrush",
+          "taskType": "bug"
+        },
+        {
+          "id": 2,
+          "priority": "urgent",
+          "task": "Ac hac et ac tristique luctus.",
+          "taskId": "WMS-21",
+          "from":"LDWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 3,
+          "priority": "high",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-24",
+          "from":"LDWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 4,
+          "priority": "high",
+          "task": "Ultrices ultrices etiam sed.",
+          "taskId": "WMS-12",
+          "from":"Marketing",
+          "taskType": "macro"
+        },
+        {
+          "id": 5,
+          "priority": "medium",
+          "task": "Magna bibendum nibh mi habitant.",
+          "taskId": "WMS-18",
+          "from":"RoundrushWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 6,
+          "priority": "low",
+          "task": "Enim at eget morbi amet integ..",
+          "taskId": "WMS-32",
+          "from":"LDWebsite",
+          "taskType": "macro"
+        },
+        {
+          "id": 7,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 8,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 8,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        }
+      ]
+    },
+    {
+      "name": "Roundrush Website",
+      "id": 4,
+      "sym": "RW",
+      "color": "#4086E0",
+      "todos": [
+        {
+          "id": 1,
+          "priority": "urgent",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-20",
+          "from":"Roundrush",
+          "taskType": "bug"
+        },
+        {
+          "id": 2,
+          "priority": "urgent",
+          "task": "Ac hac et ac tristique luctus.",
+          "taskId": "WMS-21",
+          "from":"LDWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 3,
+          "priority": "high",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-24",
+          "from":"LDWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 4,
+          "priority": "high",
+          "task": "Ultrices ultrices etiam sed.",
+          "taskId": "WMS-12",
+          "from":"Marketing",
+          "taskType": "macro"
+        },
+        {
+          "id": 5,
+          "priority": "medium",
+          "task": "Magna bibendum nibh mi habitant.",
+          "taskId": "WMS-18",
+          "from":"RoundrushWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 6,
+          "priority": "low",
+          "task": "Enim at eget morbi amet integ..",
+          "taskId": "WMS-32",
+          "from":"LDWebsite",
+          "taskType": "macro"
+        },
+        {
+          "id": 7,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        }
+      ],
+      "pending": [
+        {
+          "id": 1,
+          "priority": "urgent",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-20",
+          "from":"Roundrush",
+          "taskType": "bug"
+        },
+        {
+          "id": 2,
+          "priority": "urgent",
+          "task": "Ac hac et ac tristique luctus.",
+          "taskId": "WMS-21",
+          "from":"LDWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 3,
+          "priority": "high",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-24",
+          "from":"LDWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 4,
+          "priority": "high",
+          "task": "Ultrices ultrices etiam sed.",
+          "taskId": "WMS-12",
+          "from":"Marketing",
+          "taskType": "macro"
+        },
+        {
+          "id": 5,
+          "priority": "medium",
+          "task": "Magna bibendum nibh mi habitant.",
+          "taskId": "WMS-18",
+          "from":"RoundrushWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 6,
+          "priority": "low",
+          "task": "Enim at eget morbi amet integ..",
+          "taskId": "WMS-32",
+          "from":"LDWebsite",
+          "taskType": "macro"
+        },
+        {
+          "id": 7,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 8,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 8,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        }
+      ]
+    },
+    {
+      "name": "Marketing",
+      "id": 5,
+      "sym": "M",
+      "color": "#7A6FEF",
+      "todos": [
+        {
+          "id": 1,
+          "priority": "urgent",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-20",
+          "from":"Roundrush",
+          "taskType": "bug"
+        },
+        {
+          "id": 2,
+          "priority": "urgent",
+          "task": "Ac hac et ac tristique luctus.",
+          "taskId": "WMS-21",
+          "from":"LDWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 3,
+          "priority": "high",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-24",
+          "from":"LDWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 4,
+          "priority": "high",
+          "task": "Ultrices ultrices etiam sed.",
+          "taskId": "WMS-12",
+          "from":"Marketing",
+          "taskType": "macro"
+        },
+        {
+          "id": 5,
+          "priority": "medium",
+          "task": "Magna bibendum nibh mi habitant.",
+          "taskId": "WMS-18",
+          "from":"RoundrushWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 6,
+          "priority": "low",
+          "task": "Enim at eget morbi amet integ..",
+          "taskId": "WMS-32",
+          "from":"LDWebsite",
+          "taskType": "macro"
+        },
+        {
+          "id": 7,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        }
+      ],
+      "pending": [
+        {
+          "id": 1,
+          "priority": "urgent",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-20",
+          "from":"Roundrush",
+          "taskType": "bug"
+        },
+        {
+          "id": 2,
+          "priority": "urgent",
+          "task": "Ac hac et ac tristique luctus.",
+          "taskId": "WMS-21",
+          "from":"LDWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 3,
+          "priority": "high",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-24",
+          "from":"LDWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 4,
+          "priority": "high",
+          "task": "Ultrices ultrices etiam sed.",
+          "taskId": "WMS-12",
+          "from":"Marketing",
+          "taskType": "macro"
+        },
+        {
+          "id": 5,
+          "priority": "medium",
+          "task": "Magna bibendum nibh mi habitant.",
+          "taskId": "WMS-18",
+          "from":"RoundrushWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 6,
+          "priority": "low",
+          "task": "Enim at eget morbi amet integ..",
+          "taskId": "WMS-32",
+          "from":"LDWebsite",
+          "taskType": "macro"
+        },
+        {
+          "id": 7,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 8,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 8,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        }
+      ]
+    },
+    {
+      "name": "Roundrush Dev Ops",
+      "id": 6,
+      "sym": "RDO",
+      "color": "#EEC301",
+      "todos": [
+        {
+          "id": 1,
+          "priority": "urgent",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-20",
+          "from":"Roundrush",
+          "taskType": "bug"
+        },
+        {
+          "id": 2,
+          "priority": "urgent",
+          "task": "Ac hac et ac tristique luctus.",
+          "taskId": "WMS-21",
+          "from":"LDWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 3,
+          "priority": "high",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-24",
+          "from":"LDWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 4,
+          "priority": "high",
+          "task": "Ultrices ultrices etiam sed.",
+          "taskId": "WMS-12",
+          "from":"Marketing",
+          "taskType": "macro"
+        },
+        {
+          "id": 5,
+          "priority": "medium",
+          "task": "Magna bibendum nibh mi habitant.",
+          "taskId": "WMS-18",
+          "from":"RoundrushWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 6,
+          "priority": "low",
+          "task": "Enim at eget morbi amet integ..",
+          "taskId": "WMS-32",
+          "from":"LDWebsite",
+          "taskType": "macro"
+        },
+        {
+          "id": 7,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        }
+      ],
+      "pending": [
+        {
+          "id": 1,
+          "priority": "urgent",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-20",
+          "from":"Roundrush",
+          "taskType": "bug"
+        },
+        {
+          "id": 2,
+          "priority": "urgent",
+          "task": "Ac hac et ac tristique luctus.",
+          "taskId": "WMS-21",
+          "from":"LDWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 3,
+          "priority": "high",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-24",
+          "from":"LDWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 4,
+          "priority": "high",
+          "task": "Ultrices ultrices etiam sed.",
+          "taskId": "WMS-12",
+          "from":"Marketing",
+          "taskType": "macro"
+        },
+        {
+          "id": 5,
+          "priority": "medium",
+          "task": "Magna bibendum nibh mi habitant.",
+          "taskId": "WMS-18",
+          "from":"RoundrushWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 6,
+          "priority": "low",
+          "task": "Enim at eget morbi amet integ..",
+          "taskId": "WMS-32",
+          "from":"LDWebsite",
+          "taskType": "macro"
+        },
+        {
+          "id": 7,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 8,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 8,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        }
+      ]
+    },
+    {
+      "name": "Social LD",
+      "id": 7,
+      "sym": "SL",
+      "color": "#61D26F",
+      "todos": [
+        {
+          "id": 1,
+          "priority": "urgent",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-20",
+          "from":"Roundrush",
+          "taskType": "bug"
+        },
+        {
+          "id": 2,
+          "priority": "urgent",
+          "task": "Ac hac et ac tristique luctus.",
+          "taskId": "WMS-21",
+          "from":"LDWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 3,
+          "priority": "high",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-24",
+          "from":"LDWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 4,
+          "priority": "high",
+          "task": "Ultrices ultrices etiam sed.",
+          "taskId": "WMS-12",
+          "from":"Marketing",
+          "taskType": "macro"
+        },
+        {
+          "id": 5,
+          "priority": "medium",
+          "task": "Magna bibendum nibh mi habitant.",
+          "taskId": "WMS-18",
+          "from":"RoundrushWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 6,
+          "priority": "low",
+          "task": "Enim at eget morbi amet integ..",
+          "taskId": "WMS-32",
+          "from":"LDWebsite",
+          "taskType": "macro"
+        },
+        {
+          "id": 7,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        }
+      ],
+      "pending": [
+        {
+          "id": 1,
+          "priority": "urgent",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-20",
+          "from":"Roundrush",
+          "taskType": "bug"
+        },
+        {
+          "id": 2,
+          "priority": "urgent",
+          "task": "Ac hac et ac tristique luctus.",
+          "taskId": "WMS-21",
+          "from":"LDWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 3,
+          "priority": "high",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-24",
+          "from":"LDWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 4,
+          "priority": "high",
+          "task": "Ultrices ultrices etiam sed.",
+          "taskId": "WMS-12",
+          "from":"Marketing",
+          "taskType": "macro"
+        },
+        {
+          "id": 5,
+          "priority": "medium",
+          "task": "Magna bibendum nibh mi habitant.",
+          "taskId": "WMS-18",
+          "from":"RoundrushWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 6,
+          "priority": "low",
+          "task": "Enim at eget morbi amet integ..",
+          "taskId": "WMS-32",
+          "from":"LDWebsite",
+          "taskType": "macro"
+        },
+        {
+          "id": 7,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 8,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 8,
+          "priority": "low",
+          "task": "Varius ultricies vitae eget.",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        }
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "id": 8,
+      "sym": "ML",
+      "color": "#FD612C",
+      "todos": [
+        {
+          "id": 1,
+          "priority": "urgent",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-20",
+          "from":"Roundrush",
+          "taskType": "bug"
+        },
+        {
+          "id": 2,
+          "priority": "urgent",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-21",
+          "from":"LDWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 3,
+          "priority": "high",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-24",
+          "from":"LDWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 4,
+          "priority": "high",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-12",
+          "from":"Marketing",
+          "taskType": "macro"
+        },
+        {
+          "id": 5,
+          "priority": "medium",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-18",
+          "from":"RoundrushWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 6,
+          "priority": "low",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-32",
+          "from":"LDWebsite",
+          "taskType": "macro"
+        },
+        {
+          "id": 7,
+          "priority": "low",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        }
+      ],
+      "pending": [
+        {
+          "id": 1,
+          "priority": "urgent",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-20",
+          "from":"Roundrush",
+          "taskType": "bug"
+        },
+        {
+          "id": 2,
+          "priority": "urgent",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-21",
+          "from":"LDWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 3,
+          "priority": "high",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-24",
+          "from":"LDWebsite",
+          "taskType": "task"
+        },
+        {
+          "id": 4,
+          "priority": "high",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-12",
+          "from":"Marketing",
+          "taskType": "macro"
+        },
+        {
+          "id": 5,
+          "priority": "medium",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-18",
+          "from":"RoundrushWebsite",
+          "taskType": "bug"
+        },
+        {
+          "id": 6,
+          "priority": "low",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-32",
+          "from":"LDWebsite",
+          "taskType": "macro"
+        },
+        {
+          "id": 7,
+          "priority": "low",
+          "task": "Certe, inquam, pertinax non intell...",
+          "taskId": "WMS-29",
+          "from":"RoundrushWebsite",
+          "taskType": "task"
+        }
+      ]
+    }
+  ],
+
+  "objectives":[
+    {
+      "name":"Cart Functionality",
+      "priority":"urgent",
+      "status": "Not Done",
+      "assignees":[
+        {"name":"Iene Robert", "img":"https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"},
+        {"name":"Kris Rich", "img":"https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"}
+      ],
+      "dueDate":"15/01/2021",
+      "checkmarks":5,
+      "desc":"What is cart functionality? A website builder with shopping cart is a web-program that allows you to open your own eCommerce website. On this website, you will be able to sell your stuff to online customers.",
+
+      "subProject":"Webapp",
+      "linkedProjects":"12/10/2019"
+
+    },
+    {
+      "name":"Login Functionallity",
+      "priority":"high",
+      "status": "Not Done",
+      "assignees":[
+        {"name":"Gio Kaladze", "img":"https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"},
+        {"name":"Roe Jones", "img":"https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"}
+      ],
+      "dueDate":"25/03/2020",
+      "checkmarks":5,
+      "desc":"A user’s email address might be very long and inconvenient to type for frequently used websites. Allowing the user to set an alternative username in your My Account section would help to combat this issue. Mandatory usernames should only be used when they are required for very specific reasons (for example, as a public “handle” on forums, Twitter, etc).",
+      "subProject":"Webapp",
+      "linkedProjects":"12/10/2019"
+
+    },
+    {
+      "name":"Notifications Center",
+      "priority":"high",
+      "status": "Not Done",
+      "assignees":[
+        {"name":"Jann Louis", "img":"https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"},
+        {"name":"Ken Block", "img":"https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"}
+      ],
+      "dueDate":"05/08/2020",
+      "checkmarks":5,
+      "desc":"To see your notifications in Notification Center, do any of the following: On the Lock Screen: Swipe up from the middle of the screen. On other screens: Swipe down from the top center. Then you can scroll up to see older notifications, if there are any.",
+      "subProject":"Webapp",
+      "linkedProjects":"12/10/2019"
+
+    },
+    {
+      "name":"Web App",
+      "priority":"medium",
+      "status": "Not Done",
+      "assignees":[
+        {"name":"Sam Smith", "img":"https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"},
+        {"name":"Joe Rogan", "img":"https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"}
+      ],
+      "dueDate":"21/03/2020",
+      "checkmarks":5,
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget sed ullamcorper imperdiet consectetur pretium, vitae mattis varius. Tortor et amet eget posuere quis. Cursus nibh amet diam elementum accumsan, a. In tortor mauris in viverra et mi scelerisque facilisi. Turpis ut ac egestas tempor. Eu pretium nulla vitae scelerisque.",
+      "subProject":"Webapp",
+      "linkedProjects":"12/10/2019"
+
+    },
+    {
+      "name":"App Mobile",
+      "priority":"low",
+      "status": "Not Done",
+      "assignees":[
+        {"name":"Lana Rai", "img":"https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"},
+        {"name":"Edo Etto", "img":"https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"}
+      ],
+      "dueDate":"25/09/2021",
+      "checkmarks":5,
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget sed ullamcorper imperdiet consectetur pretium, vitae mattis varius. Tortor et amet eget posuere quis. Cursus nibh amet diam elementum accumsan, a. In tortor mauris in viverra et mi scelerisque facilisi. Turpis ut ac egestas tempor. Eu pretium nulla vitae scelerisque.",
+      "subProject":"Webapp",
+      "linkedProjects":"12/10/2019"
+
+    },
+    {
+      "name":"Logout Functionallity",
+      "priority":"high",
+      "status": "Done",
+      "assignees":[
+        {"name":"Gini Klaus", "img":"https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"},
+        {"name":"Bene Bismark", "img":"https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"}
+      ],
+      "dueDate":"15/05/2022",
+      "checkmarks":5,
+      "desc":"Logout functions are non-visual widgets that you can use to end the user session, and then redirect to a mashup or a URL. The authentication for the Logout function is similar to the authentication for ThingWorx Platform.",
+      "subProject":"Webapp",
+      "linkedProjects":"12/10/2019"
+
+    },
+    {
+      "name":"UI Design",
+      "priority":"urgent",
+      "status": "Not Done",
+      "assignees":[
+        {"name":"Lora Reims", "img":"https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"},
+        {"name":"Kris Klain", "img":"https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"}
+      ],
+      "dueDate":"15/01/2022",
+      "checkmarks":5,
+      "desc":"The <Text> element is unique relative to layout: everything inside is no longer using the Flexbox layout but using text layout. This means that elements inside of a <Text> are no longer rectangles, but wrap when they see the end of the line",
+      "subProject":"Webapp",
+      "linkedProjects":"12/10/2019"
+
+    }
+  ]
+}
