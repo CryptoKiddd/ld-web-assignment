@@ -1,4 +1,4 @@
-export type Itodo = {
+ type Itodo = {
     id:number,
     task:string,
     priority:string,
@@ -34,8 +34,9 @@ type IAssignees ={
 
 
   }
-  export type IUsersData = {
+  export type IUser = {
     id:number,
+    username:string,
     email:string,
     isActive:boolean,
     owner:boolean,

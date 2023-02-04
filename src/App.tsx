@@ -1,57 +1,67 @@
-import React from "react";
+import { styled } from  "@mui/system"
+import Paper from "@mui/material/Paper"
+import Button from "@mui/material/Button"
+import Header from "./Components/Header"
+import Info from "./Components/Info";
+import { createTheme,ThemeProvider } from "@mui/material";
+import { CacheProvider } from '@emotion/react';
+import createCache from '@emotion/cache';
 
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import RootPage from "./Pages/RootPage/RootPage";
-import ErrorPage from "./Pages/ErrorPage";
-import DashboardPage from "./Pages/DashBoardPage/DashboardPage";
-import PersonalBoardPage from "./Pages/PersonalBoardPage/PersonalBoardPage";
+const cache = createCache({
+  key: 'css',
+  prepend: true,
+});
 
-import "./App.css";
-import Members from "./Components/Members/Members";
-import PersonalBoardInfo from "./Components/PersonalBoardInfo/PersonalBoardInfo";
-import ObjectivesPage from "./Pages/ObjectivesPage/ObjectivesPage";
 
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <RootPage />,
-    errorElement: <ErrorPage />,
-    children: [
-      {
-        path: "dashboard",
-        element: <DashboardPage />,
-        index:true
-      },
-      {
-        path: "projectOjectives",
-        element: <ObjectivesPage />,
-        index:true
-      },
-      {
-        path: "personalboard",
-        element: <PersonalBoardPage />,
-        children:[
-          {
-            path: "personalboard/info",
-            index:true,
-            element: <PersonalBoardInfo />,
-          },
-          {
-            path: "personalboard/members",
-            element: <Members />,
-          },
-        ]
-      },
-      
-    ],
-  },
-]);
 
+
+// import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
+
+// const router = createBrowserRouter([
+  
+// ]);
+// const theme = createTheme({
+// status:{
+//   active:"#29C293",
+//   inActive:"#FD5461"
+
+// },
+// priority:{
+//   high:" #FD5461",
+//   urgnet:"#DB54FD",
+//   medium:"#FFAB2A",
+//   low:"#29C293"
+// },
+// fontSize:{
+//   xs:12,
+//   sm:14,
+//   md:16,
+//   lg:24
+
+// },
+// palette:{
+//   secondary:{
+//     main:"rgba(49, 57, 78, 0.5)",
+//     light:"#D6D7DC",
+//   }
+// }
+// })
 function App() {
+
+
+
   return (
+    <CacheProvider value={cache}>
+
+
     <div className="App">
-      <RouterProvider router={router} />
+   {/* <Header title='Dashboard' /> */}
+   <Info />
+
     </div>
+
+    </CacheProvider>
   );
 }
 

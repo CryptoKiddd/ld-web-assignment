@@ -3,6 +3,7 @@
     {
       "id": 1,
       "name": "Armaz Avaliani",
+      "username":"CryptoKidd",
       "isActive": true,
       "email": "avaliani1232@gmail.com",
       "owner": true,
@@ -12,6 +13,7 @@
       "id": 2,
       "name": "Gvanca Beridze",
       "isActive": true,
+      "username":"CryptoKidd",
       "email": "avaliani1232@gmail.com",
       "owner": false,
       "img": "https://fastly.picsum.photos/id/237/200/300.jpg?hmac=TmmQSbShHz9CdQm0NkEjx1Dyh_Y984R9LpNrpvH2D_U"
@@ -19,6 +21,7 @@
     {
       "id": 3,
       "name": "Elene Beridze",
+      "username":"CryptoKidd",
       "isActive": true,
       "email": "avaliani1232@gmail.com",
       "owner": false,
@@ -27,6 +30,7 @@
     {
       "id": 4,
       "name": "Aleqsandre Beridze",
+      "username":"CryptoKidd",
       "isActive": false,
       "email": "avaliani1232@gmail.com",
       "owner": false,
@@ -35,6 +39,7 @@
     {
       "id": 5,
       "name": "Mukhran Avaliani",
+      "username":"CryptoKidd",
       "isActive": false,
       "email": "avaliani1232@gmail.com",
       "owner": false,
@@ -43,6 +48,7 @@
     {
       "id": 6,
       "name": "Giorgi Kalatozi",
+      "username":"CryptoKidd",
       "isActive": true,
       "email": "avaliani1232@gmail.com",
       "owner": false,
@@ -51,6 +57,7 @@
     {
       "id": 7,
       "name": "Kakha Qurdiani",
+      "username":"CryptoKidd",
       "isActive": true,
       "email": "avaliani1232@gmail.com",
       "owner": false,
