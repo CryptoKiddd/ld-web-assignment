@@ -2,10 +2,11 @@ import { styled } from  "@mui/system"
 import Paper from "@mui/material/Paper"
 import Button from "@mui/material/Button"
 import Header from "./Components/Header"
-import Info from "./Components/Info";
+import Info from "./Pages/Info";
 import { createTheme,ThemeProvider } from "@mui/material";
 import { CacheProvider } from '@emotion/react';
 import createCache from '@emotion/cache';
+import FavoriteProjects from "./Components/FavoriteProjects";
 
 const cache = createCache({
   key: 'css',
@@ -57,7 +58,8 @@ function App() {
 
     <div className="App">
    {/* <Header title='Dashboard' /> */}
-   <Info />
+   {/* <Info /> */}
+   <FavoriteProjects />
 
     </div>
 

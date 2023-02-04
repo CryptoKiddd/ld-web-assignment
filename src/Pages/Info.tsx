@@ -5,9 +5,9 @@ import { Box,  Typography, Button, ButtonGroup } from "@mui/material"
 import { styled } from '@mui/material/styles';
 
 import settings2 from '../Assets/Icons/settings2.png'
-import Header from "./Header";
-import UserList from './UserList';
-import UserInfo from './UserInfo';
+import Header from "../Components/Header";
+import UserList from '../Components/UserList';
+import UserInfo from '../Components/UserInfo';
 
 const InfoConainter = styled(Box)({
     display:'flex',

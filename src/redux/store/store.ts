@@ -11,7 +11,12 @@ export const store = configureStore({
         users:userSlice,
         objectives:objectivesSlice,
 
-    }
+    },
+    middleware: (getDefaultMiddleware) =>
+    getDefaultMiddleware({
+    
+      serializableCheck: false,
+    }),
 })
 
 

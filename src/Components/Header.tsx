@@ -1,7 +1,11 @@
 import { Box, Icon, Typography } from "@mui/material"
 import { styled } from '@mui/material/styles';
 import bell from "../Assets/Icons/Bell.png"
-
+import { useSelector, useDispatch } from "react-redux";
+import { RootState } from "../redux/store/store";
+import { useAxios } from "../CustomHooks/useAxios";
+import { setFavoriteProjects} from "../redux/features/favoriteProjectsSlice";
+import { IProject } from "../Types/types";
 
 
 const HeaderBox = styled(Box)({
@@ -41,12 +45,19 @@ type HeaderPropType ={
     title:string
 }
 const Header = ({ title }:HeaderPropType ) => {
+    const [loading, data, error] = useAxios<IProject[]>({
+        method: "GET",
+        url: " http://localhost:3500/projects",
+      });
+      const dispatch = useDispatch();
+      console.log(data)
+     
   return (
     <HeaderBox>
         <Typography variant="h5"> {title}</Typography>
         <HeaderIconsWrapper>
             <HeaderIcon src={bell} alt=""  />
-            <AddIcon>+</AddIcon>
+            <AddIcon onClick={()=> dispatch(setFavoriteProjects(data))}>+</AddIcon>
         </HeaderIconsWrapper>
         
 

@@ -35,4 +35,4 @@ export const favoriteProjectsSlice = createSlice({
 })
 
 export default favoriteProjectsSlice.reducer
-export const {addFavotireProject,setFavoriteProjects}  = favoriteProjectsSlice.actions
+export const {addFavotireProject,setFavoriteProjects,addCurrentProject}  = favoriteProjectsSlice.actions
